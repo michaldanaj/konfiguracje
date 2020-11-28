@@ -1,0 +1,22 @@
+
+### Podtawowe komendy ###
+
+# Instalowanie
+flatpak install <remote> <ID>
+flatpak install <path-to-flatpakref>
+
+# Odinstalowanie
+flatpak uninstall <ID>
+
+# Uruchomienie
+flatpak run <ID>
+
+# Przeszukanie wszytkich remote
+flatpak search <term>
+
+### Repozytoria zdalne ###
+
+# Wylistowanie repozytoriów
+flatpak remotes
+
+
