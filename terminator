@@ -1,0 +1,35 @@
+#Plik konfiguracyjny terminala Terminator znajduje się w lokalizacji
+#  ~/.config/terminator/config
+
+[global_config]
+  title_transmit_fg_color = "#000000"
+  title_transmit_bg_color = "#c17d11"
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.83
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Monospace 13
+    use_system_font = False
+  [[MonokaiPro]]
+    visible_bell = True
+    background_color = "#2e3436"
+    background_darkness = 0.94
+    background_type = transparent
+    cursor_color = "#fcfcfa"
+    cursor_color_fg = False
+    font = Source Code Pro 12
+    foreground_color = "#fcfcfa"
+    palette = "#403e41:#ff6188:#a9dc76:#ffd866:#fc9867:#ab9df2:#78dce8:#fcfcfa:#727072:#ff6188:#a9dc76:#ffd866:#fc9867:#ab9df2:#78dce8:#fcfcfa"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = MonokaiPro
+[plugins]
